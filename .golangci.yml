@@ -1,0 +1,10 @@
+linters:
+  disable-all: true
+  enable:
+    - revive
+    - goimports
+    - govet
+
+linters-settings:
+  govet:
+    check-shadowing: true
